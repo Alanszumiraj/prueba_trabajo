@@ -1,0 +1,88 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6em ;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer{
+    background: #333;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+    bottom: 0;
+    color:white
+}
+
+.main{
+    padding-top: 10rem;
+}
+/*contenedor de productos*/
+
+.asside-left {
+    height: auto;
+    width: auto;
+  
+    float: left;
+    outline: black solid 1px;
+    
+    margin: 20px;
+
+}
+.asside-left h2{
+    margin-left: 20px;
+}
+.asside-left p{
+    padding-left: 10px;
+}
+.products {
+    position: relative;
+    height: auto;
+    width: 650px;
+    margin-right: 60px;
+    flex: left;
+    margin-top: 20px;
+    outline: 1px solid black;
+    overflow: scroll;
+    max-width: 650px;
+    
+}
+
+.separator {
+    height: 236px;
+    outline: black solid 1px;
+    overflow: scroll;
+}
+.product-1 {
+    height: 196px;
+    width: 264px;
+    background-size: cover;
+    float: left;
+    outline: black solid 1px;
+    margin: 20px;
+}
+.container-product-title {
+    float: left;
+    margin: 6px;
+}
+#comprar-ahora {
+    background-color: red;
+    height: 30px;
+    width: auto;
+    color: black;
+    border-radius: 1px;
+    border: none;
+}
+#agregar-carrito {
+    background-color: rgb(150, 159, 170);
+    height: 30px;
+    width: auto;
+    color: black;
+    border: none;
+}
